@@ -1,0 +1,15 @@
+1, Mi a legkisebb prim szam?
+*1|False
+*2|True
+*3|False
+*passz|False
+2, Szeretnéd-e pythonbol a jobb jegyet?
+*nem|False
+*igen nagyon|True
+*nem erdekel|False
+*mi ez a kerdes|False
+3, Teszt?
+*teszt(ez a jo valasz)|True
+*teszt!|False
+*teszt|False
+*teszting|False

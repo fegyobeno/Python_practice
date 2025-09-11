@@ -1,0 +1,13 @@
+1, Egy meg egy az kettő.
+*Igaz|True
+*Hamis|False
+2, Mennyi az annyi?
+*Mennyi?|True
+*Három|False
+*Annyi|True
+*Dezső|False
+3, Mi az, ami asztal, de nem szék?
+*Asztal|True
+*Szék|False
+*Elefánt|False
+*Három|False

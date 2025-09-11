@@ -1,0 +1,25 @@
+1, Mi az autók legfontosabb energiaforrása?
+*Benzin|True
+*Gázolaj|True
+*Víz|False
+*Napelem|False
+1, Melyik autómárka gyártja a Model S-t?
+*Tesla|True
+*BMW|False
+*Audi|False
+*Ford|False
+1, Mi a négykerék-meghajtás jele?
+*AWD|True
+*FWD|False
+*RWD|False
+*4x4|True
+1, Melyik országban alapították a Toyota vállalatot?
+*Japán|True
+*Németország|False
+*USA|False
+*Dél-Korea|False
+1, Melyik az egyik legismertebb sportautó-modell a Ferraritól?
+*488 GTB|True
+*Mustang|False
+*Camaro|False
+*911 Carrera|False

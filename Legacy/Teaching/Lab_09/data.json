@@ -1,0 +1,18 @@
+{
+    "name": "John Doe",
+    "age": 30,
+    "email": "johndoe@example.com",
+    "isStudent": false,
+    "courses": [
+        {
+            "name": "Introduction to Programming",
+            "code": "CS101",
+            "credits": 3
+        },
+        {
+            "name": "Data Structures",
+            "code": "CS102",
+            "credits": 4
+        }
+    ]
+}

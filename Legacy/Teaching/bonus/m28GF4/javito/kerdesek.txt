@@ -1,0 +1,10 @@
+1, Milyen színű az ég?
+*Kék|True
+*Piros|False
+*Sárga|False
+*Zöld|False
+2, Melyik mértékegység helyes az idő mérésére?
+*Óra|True
+*Méter|False
+*Perc|True
+*Liter|False
