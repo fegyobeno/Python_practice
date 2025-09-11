@@ -134,3 +134,9 @@ Thumbs.db
 ## Editor backups
 *~
 
+*.cfg
+
+/Teaching
+
+/Scripts
+
