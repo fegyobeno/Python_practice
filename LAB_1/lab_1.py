@@ -14,7 +14,7 @@ print("a értéke: " + str(a) + ", b értéke: " + str(b) + ", a + b = " + str(a
 
 
 # Python dinamikusan típusozott --> a változók futásidőben kapnak típust
-a = 10
+a = 10 
 print(f"{a} is of type {type(a)}")
 a = 5.5
 print(f"{a} is of type {type(a)}")
