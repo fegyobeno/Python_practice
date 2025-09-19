@@ -101,7 +101,7 @@ def string_title(s) -> str:
 # O X X
 
 # A második játékost cseréld le egy "AI"-ra, aki véletlenszerűen választ egy üres helyet
-# Hasznéld a random könyvtárat
+# Használd a random könyvtárat
 # import random
 
 # A második játékos ha tud nyerni akkor nyerjen, máskülönben maradjon a véletlenszerű választásnál
