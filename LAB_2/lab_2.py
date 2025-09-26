@@ -1,4 +1,4 @@
-'''
+
 # python bemenet
 # input( paraméter )
 
@@ -64,7 +64,7 @@ while True:
     else:
         print("Nem integert adtál meg!")
 
-'''
+
 # importok pythonban
 from functions import *
 from test.functions import add_py
