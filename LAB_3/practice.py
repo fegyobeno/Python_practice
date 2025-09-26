@@ -97,6 +97,14 @@ add_20 = create_adder(20) # add_20 egy függvény lesz, amely hozzáad 20-at a b
 print(add_15(10))  # Output: 25
 print(add_20(10))  # Output: 30
 
+# list
+l = []
+for i in range(100):
+    l.append(create_adder(i))
+
+print(l[10](5))  # Output: 15
+print(l[50](5))  # Output: 55
+
 
 print('-------------------------------------------------------------')
 # A dekorátoroknak az a feladata, hogy megváltoztassák egy függvény működését.
