@@ -22,7 +22,7 @@ def intersection(lst1, lst2):
     pass
     # TODO: implement this function
 
-# Irj egy függvényt ami megtalálja az alábbi fa szerű listában a maximum element
+# Irj egy függvényt ami megtalálja az alábbi fa szerű listában a maximum elemet
 l_1 = [1, [2, 3, [4, 5]], [6, 7], 8, [9, 10, [11, 12]]]
 l_2 = [16 , [2, 3, [14, 5]], [6, 17], 8, [9, 10, [11, 12]]]
 
