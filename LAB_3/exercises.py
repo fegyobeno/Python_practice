@@ -1,5 +1,28 @@
 # 15. Feladat
-# Írj egy dekorátort, amely megszámolja, hogy egy függvény hányszor lett meghívva
+def count_calls(func):
+    def wrapper(*args, **kwargs):
+        wrapper.calls += 1
+        print(f"Function {func.__name__} has been called {wrapper.calls} times")
+        return func(*args, **kwargs)
+    wrapper.calls = 0
+    return wrapper
+
+@count_calls
+def greet(name):
+    return f"Hello, {name}!"
+
+@count_calls
+def add(a, b):
+    return a + b
+
+print(greet("Alice"))  # Output: Hello, Alice!
+print(greet("Bob"))    # Output: Hello, Bob!
+print(greet("Bob"))
+print(greet("Bob"))
+
+print(add(3, 4))       # Output: 7
+
+print(list(enumerate({'a': 1, 'b': 2})))
 
 # 16. Feladat
 # Írj egy dekorátort, amely méri, hogy egy függvény futása mennyi időt vett igénybe
