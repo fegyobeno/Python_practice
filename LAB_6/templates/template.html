@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            margin: 40px; 
+            background: #f9f9f9; 
+            color: #333;
+        }
+        header {
+            margin-bottom: 30px;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        nav a {
+            margin-right: 15px;
+            text-decoration: none;
+            color: #2980b9;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Home Page</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <title>This is a html page that we exposed by fastapi!</title>
+        <p>
+            <pre>
+                <code>
+                    x = set([x for x in range(10) if x%2==0])
+                </code>
+            </pre>
+        </p>
+        <p>
+            <a href="/euler">Click here to see Euler's Identity</a>
+        </p>
+    </main>
+</body>
+</html>
